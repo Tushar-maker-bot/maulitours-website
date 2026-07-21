@@ -1,6 +1,4 @@
-/* ==============================
-   RESET
-============================== */
+
 
 * {
     margin: 0;
@@ -19,9 +17,7 @@ body {
 }
 
 
-/* ==============================
-   HEADER
-============================== */
+
 
 header {
     position: fixed;
@@ -44,9 +40,6 @@ header {
 }
 
 
-/* ==============================
-   LOGO
-============================== */
 
 .logo img {
     height: 80px;
@@ -56,9 +49,7 @@ header {
 }
 
 
-/* ==============================
-   NAVIGATION
-============================== */
+
 
 nav {
     display: flex;
@@ -78,9 +69,6 @@ nav a:hover {
 }
 
 
-/* ==============================
-   HEADER BOOK NOW BUTTON
-============================== */
 
 .book-btn {
     display: inline-block;
@@ -99,9 +87,7 @@ nav a:hover {
 }
 
 
-/* ==============================
-   HERO SECTION
-============================== */
+
 
 .hero {
     min-height: 100vh;
@@ -121,10 +107,6 @@ nav a:hover {
 }
 
 
-/* ==============================
-   DARK OVERLAY
-   Makes text clearly visible
-============================== */
 
 .overlay {
     position: absolute;
@@ -138,9 +120,6 @@ nav a:hover {
 }
 
 
-/* ==============================
-   HERO CONTENT
-============================== */
 
 .hero-content {
     position: relative;
@@ -155,9 +134,7 @@ nav a:hover {
 }
 
 
-/* ==============================
-   HERO HEADING
-============================== */
+
 
 .hero h1 {
     font-size: 55px;
@@ -174,9 +151,6 @@ nav a:hover {
 }
 
 
-/* ==============================
-   HERO SUB HEADING
-============================== */
 
 .hero h2 {
     font-size: 34px;
@@ -192,9 +166,6 @@ nav a:hover {
 }
 
 
-/* ==============================
-   HERO DESCRIPTION
-============================== */
 
 .hero p {
     font-size: 20px;
@@ -210,9 +181,6 @@ nav a:hover {
 }
 
 
-/* ==============================
-   BUTTON CONTAINER
-============================== */
 
 .buttons {
     display: flex;
@@ -222,9 +190,7 @@ nav a:hover {
 }
 
 
-/* ==============================
-   ALL HERO BUTTONS
-============================== */
+
 
 .btn,
 .btn-outline {
@@ -244,9 +210,6 @@ nav a:hover {
 }
 
 
-/* ==============================
-   GREEN BOOK NOW BUTTON
-============================== */
 
 .btn {
     background: #0A8F4B;
@@ -262,9 +225,6 @@ nav a:hover {
 }
 
 
-/* ==============================
-   CUSTOM TOUR BUTTON
-============================== */
 
 .btn-outline {
     background: rgba(0, 0, 0, 0.25);
@@ -282,9 +242,7 @@ nav a:hover {
 }
 
 
-/* ==============================
-   TABLET
-============================== */
+
 
 @media (max-width: 768px) {
 
@@ -344,12 +302,9 @@ nav a:hover {
         padding: 12px 22px;
         font-size: 14px;
     }
-}
 
 
-/* ==============================
-   MOBILE
-============================== */
+
 
 @media (max-width: 480px) {
 
@@ -388,4 +343,3 @@ nav a:hover {
         max-width: 280px;
         text-align: center;
     }
-}
